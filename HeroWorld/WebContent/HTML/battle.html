@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>英雄对战</title>
+		<link rel="stylesheet" type="text/css" href="CSS/battle.css"></link>
+		<script type="text/javascript" src="JS/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="JS/battle.js"></script>
+	</head>
+	<body>
+		<div id="mainArea" style="width: 800px;height: 300px;margin: 0px auto;background-color: #EEEEEE;">
+			<table id="heroInfosTbl">
+				<tr>
+					<td width="50%" class="heroName" style="text-align: right;padding-right: 55px" id="ourHeroName"></td>
+					<td width="50%" class="heroName" id="enemyHeroName"></td>
+				</tr>
+				<tr>
+					<td>
+						<div class="hpBar" id="heroHPBar">100/100</div>
+					</td>
+					<td>
+						<div class="hpBar" id="enemyHPBar">100/100</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div class="mpBar" id="heroMPBar">100/100</div>
+					</td>
+					<td>
+						<div class="mpBar" id="enemyMPBar">100/100</div>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" style="text-align: center;">
+						<input type="button" value="惩击" class="skillBtn"/>
+						<input type="button" value="治疗术" class="skillBtn"/>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>

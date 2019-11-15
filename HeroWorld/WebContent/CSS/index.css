@@ -1,0 +1,5 @@
+			#heroInfosTbl{width: 90%;margin-left: 5%;padding-top: 10px;}
+			.heroName{font-family: '华文新魏';font-size: 24px;font-weight: 500;}
+			.hpBar{width: 300px;height: 36px;background-color: #AA0000;margin-top: 10px;text-align: center;line-height: 36px;border-radius: 10px;color: #F0F0F0;font-weight: 900;}
+			.mpBar{width: 300px;height: 36px;background-color: #0000AA;margin-top: 10px;text-align: center;line-height: 36px;border-radius: 10px;color: #F0F0F0;font-weight: 900;}
+			.skillBtn{width: 60px;height: 60px;border-radius: 30px;margin-top: 15px;background-color: #6666EE;color: #F0F0F0;font-weight: 900;font-family: "楷体";font-size: 16px;border: 0px;}

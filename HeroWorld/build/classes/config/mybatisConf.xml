@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 【保存到当前程序的资源包下的confFiles包的mybatisConf.xml文件中】 -->
+ <!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+ <configuration>
+     <environments default="local">
+         <environment id="local">
+             <transactionManager type="JDBC" />
+             <!-- 配置数据库连接信息 -->
+             <dataSource type="POOLED">
+                 <property name="driver" value="com.mysql.jdbc.Driver" />
+                 <property name="url" value="jdbc:mysql://localhost:3306/heroworld"/>
+                 <property name="username" value="root" />
+                 <property name="password" value="root" />
+             </dataSource>
+         </environment>
+     </environments>
+     
+     <!--映射文件配置，放在上面的configuration元素中-->
+     <mappers>
+     	 <mapper class="com.JiangJiawei.mapper.HeroMapper"/>
+         <mapper class="com.JiangJiawei.mapper.SkillMapper"/>
+     </mappers>
+</configuration>

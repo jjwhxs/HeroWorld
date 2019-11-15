@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>英雄对战</title>
+		<link rel="stylesheet" type="text/css" href="CSS/index.css"></link>
+		<script type="text/javascript" src="JS/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="JS/index.js"></script>
+	</head>
+	<body>
+		<div id="mainArea" style="width: 800px;height: 300px;margin: 0px auto;background-color: #EEEEEE;">
+			<table id="heroInfosTbl">
+				<tr>
+					<td width="50%" class="heroName" style="text-align: right;padding-right: 55px" id="ourHeroName"></td>
+					<td width="50%" class="heroName" id="enemyHeroName"></td>
+				</tr>
+				<tr>
+					<td>
+						<div class="hpBar" id="heroHPBar"><span id="heroHP"></span>/<span id="heroMaxHP"></span></div>
+					</td>
+					<td>
+						<div class="hpBar" id="enemyHPBar"><span id="enemyHP"></span>/<span id="enemyMaxHP"></span></div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div class="mpBar" id="heroMPBar"><span id="heroMP"></span>/<span id="heroMaxMP"></span></div>
+					</td>
+					<td>
+						<div class="mpBar" id="enemyMPBar"><span id="enemyMP"></span>/<span id="enemyMaxMP"></span></div>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" style="text-align: center;">
+						<input id="holyStrike" type="button" value="惩击" class="skillBtn"/>
+						<input id="heal" type="button" value="治疗术" class="skillBtn"/>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>
